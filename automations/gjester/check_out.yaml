@@ -9,7 +9,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor01
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor02'
   alias: QR Check out - visitor02
   trigger:
@@ -21,7 +21,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor02
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor03'
   alias: QR Check out - visitor03
   trigger:
@@ -33,7 +33,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor03
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor04'
   alias: QR Check out - visitor04
   trigger:
@@ -45,7 +45,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor04
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor05'
   alias: QR Check out - visitor05
   trigger:
@@ -57,7 +57,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor05
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor06'
   alias: QR Check out - visitor06
   trigger:
@@ -69,7 +69,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor06
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor07'
   alias: QR Check out - visitor07
   trigger:
@@ -81,7 +81,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor07
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor08'
   alias: QR Check out - visitor08
   trigger:
@@ -93,7 +93,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor08
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor09'
   alias: QR Check out - visitor09
   trigger:
@@ -105,7 +105,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor09
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor10'
   alias: QR Check out - visitor10
   trigger:
@@ -117,7 +117,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor10
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor11'
   alias: QR Check out - visitor11
   trigger:
@@ -129,7 +129,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor11
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor12'
   alias: QR Check out - visitor12
   trigger:
@@ -141,7 +141,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor12
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor13'
   alias: QR Check out - visitor13
   trigger:
@@ -153,7 +153,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor13
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor14'
   alias: QR Check out - visitor14
   trigger:
@@ -165,7 +165,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor14
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor15'
   alias: QR Check out - visitor15
   trigger:
@@ -177,7 +177,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor15
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor16'
   alias: QR Check out - visitor16
   trigger:
@@ -189,7 +189,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor16
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor17'
   alias: QR Check out - visitor17
   trigger:
@@ -201,7 +201,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor17
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor18'
   alias: QR Check out - visitor18
   trigger:
@@ -213,7 +213,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor18
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor19'
   alias: QR Check out - visitor19
   trigger:
@@ -225,7 +225,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor19
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor20'
   alias: QR Check out - visitor20
   trigger:
@@ -237,7 +237,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor20
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor21'
   alias: QR Check out - visitor21
   trigger:
@@ -249,7 +249,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor21
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor22'
   alias: QR Check out - visitor22
   trigger:
@@ -261,7 +261,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor22
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor23'
   alias: QR Check out - visitor23
   trigger:
@@ -273,7 +273,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor23
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor24'
   alias: QR Check out - visitor24
   trigger:
@@ -285,7 +285,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor24
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor25'
   alias: QR Check out - visitor25
   trigger:
@@ -297,7 +297,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor25
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor26'
   alias: QR Check out - visitor26
   trigger:
@@ -309,7 +309,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor26
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor27'
   alias: QR Check out - visitor27
   trigger:
@@ -321,7 +321,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor27
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor28'
   alias: QR Check out - visitor28
   trigger:
@@ -333,7 +333,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor28
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor29'
   alias: QR Check out - visitor29
   trigger:
@@ -345,7 +345,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor29
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor30'
   alias: QR Check out - visitor30
   trigger:
@@ -357,7 +357,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor30
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor31'
   alias: QR Check out - visitor31
   trigger:
@@ -369,7 +369,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor31
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor32'
   alias: QR Check out - visitor32
   trigger:
@@ -381,7 +381,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor32
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor33'
   alias: QR Check out - visitor33
   trigger:
@@ -393,7 +393,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor33
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor34'
   alias: QR Check out - visitor34
   trigger:
@@ -405,7 +405,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor34
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor35'
   alias: QR Check out - visitor35
   trigger:
@@ -417,7 +417,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor35
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor36'
   alias: QR Check out - visitor36
   trigger:
@@ -429,7 +429,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor36
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor37'
   alias: QR Check out - visitor37
   trigger:
@@ -441,7 +441,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor37
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor38'
   alias: QR Check out - visitor38
   trigger:
@@ -453,7 +453,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor38
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor39'
   alias: QR Check out - visitor39
   trigger:
@@ -465,7 +465,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor39
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor40'
   alias: QR Check out - visitor40
   trigger:
@@ -477,7 +477,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor40
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor41'
   alias: QR Check out - visitor41
   trigger:
@@ -489,7 +489,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor41
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor42'
   alias: QR Check out - visitor42
   trigger:
@@ -501,7 +501,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor42
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor43'
   alias: QR Check out - visitor43
   trigger:
@@ -513,7 +513,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor43
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor44'
   alias: QR Check out - visitor44
   trigger:
@@ -525,7 +525,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor44
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor45'
   alias: QR Check out - visitor45
   trigger:
@@ -537,7 +537,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor45
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor46'
   alias: QR Check out - visitor46
   trigger:
@@ -549,7 +549,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor46
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor47'
   alias: QR Check out - visitor47
   trigger:
@@ -561,7 +561,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor47
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor48'
   alias: QR Check out - visitor48
   trigger:
@@ -573,7 +573,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor48
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor49'
   alias: QR Check out - visitor49
   trigger:
@@ -585,7 +585,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor49
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor50'
   alias: QR Check out - visitor50
   trigger:
@@ -597,7 +597,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor50
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor51'
   alias: QR Check out - visitor51
   trigger:
@@ -609,7 +609,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor51
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor52'
   alias: QR Check out - visitor52
   trigger:
@@ -621,7 +621,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor52
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor53'
   alias: QR Check out - visitor53
   trigger:
@@ -633,7 +633,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor53
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor54'
   alias: QR Check out - visitor54
   trigger:
@@ -645,7 +645,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor54
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor55'
   alias: QR Check out - visitor55
   trigger:
@@ -657,7 +657,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor55
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor56'
   alias: QR Check out - visitor56
   trigger:
@@ -669,7 +669,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor56
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor57'
   alias: QR Check out - visitor57
   trigger:
@@ -681,7 +681,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor57
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor58'
   alias: QR Check out - visitor58
   trigger:
@@ -693,7 +693,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor58
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor59'
   alias: QR Check out - visitor59
   trigger:
@@ -705,7 +705,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor59
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor60'
   alias: QR Check out - visitor60
   trigger:
@@ -717,7 +717,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor60
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor61'
   alias: QR Check out - visitor61
   trigger:
@@ -729,7 +729,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor61
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor62'
   alias: QR Check out - visitor62
   trigger:
@@ -741,7 +741,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor62
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor63'
   alias: QR Check out - visitor63
   trigger:
@@ -753,7 +753,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor63
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor64'
   alias: QR Check out - visitor64
   trigger:
@@ -765,7 +765,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor64
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor65'
   alias: QR Check out - visitor65
   trigger:
@@ -777,7 +777,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor65
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor66'
   alias: QR Check out - visitor66
   trigger:
@@ -789,7 +789,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor66
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor67'
   alias: QR Check out - visitor67
   trigger:
@@ -801,7 +801,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor67
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor68'
   alias: QR Check out - visitor68
   trigger:
@@ -813,7 +813,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor68
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor69'
   alias: QR Check out - visitor69
   trigger:
@@ -825,7 +825,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor69
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor70'
   alias: QR Check out - visitor70
   trigger:
@@ -837,7 +837,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor70
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor71'
   alias: QR Check out - visitor71
   trigger:
@@ -849,7 +849,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor71
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor72'
   alias: QR Check out - visitor72
   trigger:
@@ -861,7 +861,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor72
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor73'
   alias: QR Check out - visitor73
   trigger:
@@ -873,7 +873,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor73
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor74'
   alias: QR Check out - visitor74
   trigger:
@@ -885,7 +885,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor74
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor75'
   alias: QR Check out - visitor75
   trigger:
@@ -897,7 +897,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor75
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor76'
   alias: QR Check out - visitor76
   trigger:
@@ -909,7 +909,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor76
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor77'
   alias: QR Check out - visitor77
   trigger:
@@ -921,7 +921,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor77
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor78'
   alias: QR Check out - visitor78
   trigger:
@@ -933,7 +933,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor78
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor79'
   alias: QR Check out - visitor79
   trigger:
@@ -945,7 +945,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor79
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor80'
   alias: QR Check out - visitor80
   trigger:
@@ -957,7 +957,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor80
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor81'
   alias: QR Check out - visitor81
   trigger:
@@ -969,7 +969,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor81
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor82'
   alias: QR Check out - visitor82
   trigger:
@@ -981,7 +981,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor82
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor83'
   alias: QR Check out - visitor83
   trigger:
@@ -993,7 +993,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor83
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor84'
   alias: QR Check out - visitor84
   trigger:
@@ -1005,7 +1005,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor84
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor85'
   alias: QR Check out - visitor85
   trigger:
@@ -1017,7 +1017,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor85
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor86'
   alias: QR Check out - visitor86
   trigger:
@@ -1029,7 +1029,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor86
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor87'
   alias: QR Check out - visitor87
   trigger:
@@ -1041,7 +1041,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor87
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor88'
   alias: QR Check out - visitor88
   trigger:
@@ -1053,7 +1053,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor88
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor89'
   alias: QR Check out - visitor89
   trigger:
@@ -1065,7 +1065,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor89
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor90'
   alias: QR Check out - visitor90
   trigger:
@@ -1077,7 +1077,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor90
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor91'
   alias: QR Check out - visitor91
   trigger:
@@ -1089,7 +1089,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor91
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor92'
   alias: QR Check out - visitor92
   trigger:
@@ -1101,7 +1101,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor92
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor93'
   alias: QR Check out - visitor93
   trigger:
@@ -1113,7 +1113,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor93
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor94'
   alias: QR Check out - visitor94
   trigger:
@@ -1125,7 +1125,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor94
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor95'
   alias: QR Check out - visitor95
   trigger:
@@ -1137,7 +1137,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor95
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor96'
   alias: QR Check out - visitor96
   trigger:
@@ -1149,7 +1149,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor96
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor97'
   alias: QR Check out - visitor97
   trigger:
@@ -1161,7 +1161,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor97
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor98'
   alias: QR Check out - visitor98
   trigger:
@@ -1173,7 +1173,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor98
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor99'
   alias: QR Check out - visitor99
   trigger:
@@ -1185,7 +1185,7 @@
   action:
   - data:
       entity_id: input_boolean.visitor99
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
 - id: 'qr_check_out_visitor100'
   alias: QR Check out - visitor100
   trigger:
@@ -1197,4 +1197,4 @@
   action:
   - data:
       entity_id: input_boolean.visitor100
-    service: input_boolean.turn_on
+    service: input_boolean.turn_off
