@@ -1,0 +1,1200 @@
+- id: 'qr_check_out_visitor01'
+  alias: QR Check out - visitor01
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor01
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor01
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor02'
+  alias: QR Check out - visitor02
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor02
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor02
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor03'
+  alias: QR Check out - visitor03
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor03
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor03
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor04'
+  alias: QR Check out - visitor04
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor04
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor04
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor05'
+  alias: QR Check out - visitor05
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor05
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor05
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor06'
+  alias: QR Check out - visitor06
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor06
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor06
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor07'
+  alias: QR Check out - visitor07
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor07
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor07
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor08'
+  alias: QR Check out - visitor08
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor08
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor08
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor09'
+  alias: QR Check out - visitor09
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor09
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor09
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor10'
+  alias: QR Check out - visitor10
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor10
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor10
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor11'
+  alias: QR Check out - visitor11
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor11
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor11
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor12'
+  alias: QR Check out - visitor12
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor12
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor12
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor13'
+  alias: QR Check out - visitor13
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor13
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor13
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor14'
+  alias: QR Check out - visitor14
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor14
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor14
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor15'
+  alias: QR Check out - visitor15
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor15
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor15
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor16'
+  alias: QR Check out - visitor16
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor16
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor16
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor17'
+  alias: QR Check out - visitor17
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor17
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor17
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor18'
+  alias: QR Check out - visitor18
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor18
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor18
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor19'
+  alias: QR Check out - visitor19
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor19
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor19
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor20'
+  alias: QR Check out - visitor20
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor20
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor20
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor21'
+  alias: QR Check out - visitor21
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor21
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor21
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor22'
+  alias: QR Check out - visitor22
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor22
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor22
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor23'
+  alias: QR Check out - visitor23
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor23
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor23
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor24'
+  alias: QR Check out - visitor24
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor24
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor24
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor25'
+  alias: QR Check out - visitor25
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor25
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor25
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor26'
+  alias: QR Check out - visitor26
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor26
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor26
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor27'
+  alias: QR Check out - visitor27
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor27
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor27
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor28'
+  alias: QR Check out - visitor28
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor28
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor28
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor29'
+  alias: QR Check out - visitor29
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor29
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor29
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor30'
+  alias: QR Check out - visitor30
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor30
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor30
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor31'
+  alias: QR Check out - visitor31
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor31
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor31
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor32'
+  alias: QR Check out - visitor32
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor32
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor32
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor33'
+  alias: QR Check out - visitor33
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor33
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor33
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor34'
+  alias: QR Check out - visitor34
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor34
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor34
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor35'
+  alias: QR Check out - visitor35
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor35
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor35
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor36'
+  alias: QR Check out - visitor36
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor36
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor36
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor37'
+  alias: QR Check out - visitor37
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor37
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor37
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor38'
+  alias: QR Check out - visitor38
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor38
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor38
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor39'
+  alias: QR Check out - visitor39
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor39
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor39
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor40'
+  alias: QR Check out - visitor40
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor40
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor40
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor41'
+  alias: QR Check out - visitor41
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor41
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor41
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor42'
+  alias: QR Check out - visitor42
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor42
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor42
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor43'
+  alias: QR Check out - visitor43
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor43
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor43
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor44'
+  alias: QR Check out - visitor44
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor44
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor44
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor45'
+  alias: QR Check out - visitor45
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor45
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor45
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor46'
+  alias: QR Check out - visitor46
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor46
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor46
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor47'
+  alias: QR Check out - visitor47
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor47
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor47
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor48'
+  alias: QR Check out - visitor48
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor48
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor48
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor49'
+  alias: QR Check out - visitor49
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor49
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor49
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor50'
+  alias: QR Check out - visitor50
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor50
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor50
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor51'
+  alias: QR Check out - visitor51
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor51
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor51
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor52'
+  alias: QR Check out - visitor52
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor52
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor52
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor53'
+  alias: QR Check out - visitor53
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor53
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor53
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor54'
+  alias: QR Check out - visitor54
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor54
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor54
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor55'
+  alias: QR Check out - visitor55
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor55
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor55
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor56'
+  alias: QR Check out - visitor56
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor56
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor56
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor57'
+  alias: QR Check out - visitor57
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor57
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor57
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor58'
+  alias: QR Check out - visitor58
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor58
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor58
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor59'
+  alias: QR Check out - visitor59
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor59
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor59
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor60'
+  alias: QR Check out - visitor60
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor60
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor60
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor61'
+  alias: QR Check out - visitor61
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor61
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor61
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor62'
+  alias: QR Check out - visitor62
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor62
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor62
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor63'
+  alias: QR Check out - visitor63
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor63
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor63
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor64'
+  alias: QR Check out - visitor64
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor64
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor64
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor65'
+  alias: QR Check out - visitor65
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor65
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor65
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor66'
+  alias: QR Check out - visitor66
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor66
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor66
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor67'
+  alias: QR Check out - visitor67
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor67
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor67
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor68'
+  alias: QR Check out - visitor68
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor68
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor68
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor69'
+  alias: QR Check out - visitor69
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor69
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor69
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor70'
+  alias: QR Check out - visitor70
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor70
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor70
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor71'
+  alias: QR Check out - visitor71
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor71
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor71
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor72'
+  alias: QR Check out - visitor72
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor72
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor72
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor73'
+  alias: QR Check out - visitor73
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor73
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor73
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor74'
+  alias: QR Check out - visitor74
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor74
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor74
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor75'
+  alias: QR Check out - visitor75
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor75
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor75
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor76'
+  alias: QR Check out - visitor76
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor76
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor76
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor77'
+  alias: QR Check out - visitor77
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor77
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor77
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor78'
+  alias: QR Check out - visitor78
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor78
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor78
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor79'
+  alias: QR Check out - visitor79
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor79
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor79
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor80'
+  alias: QR Check out - visitor80
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor80
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor80
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor81'
+  alias: QR Check out - visitor81
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor81
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor81
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor82'
+  alias: QR Check out - visitor82
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor82
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor82
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor83'
+  alias: QR Check out - visitor83
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor83
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor83
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor84'
+  alias: QR Check out - visitor84
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor84
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor84
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor85'
+  alias: QR Check out - visitor85
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor85
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor85
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor86'
+  alias: QR Check out - visitor86
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor86
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor86
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor87'
+  alias: QR Check out - visitor87
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor87
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor87
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor88'
+  alias: QR Check out - visitor88
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor88
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor88
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor89'
+  alias: QR Check out - visitor89
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor89
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor89
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor90'
+  alias: QR Check out - visitor90
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor90
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor90
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor91'
+  alias: QR Check out - visitor91
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor91
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor91
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor92'
+  alias: QR Check out - visitor92
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor92
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor92
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor93'
+  alias: QR Check out - visitor93
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor93
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor93
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor94'
+  alias: QR Check out - visitor94
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor94
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor94
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor95'
+  alias: QR Check out - visitor95
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor95
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor95
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor96'
+  alias: QR Check out - visitor96
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor96
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor96
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor97'
+  alias: QR Check out - visitor97
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor97
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor97
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor98'
+  alias: QR Check out - visitor98
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor98
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor98
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor99'
+  alias: QR Check out - visitor99
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor99
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor99
+    service: input_boolean.turn_on
+- id: 'qr_check_out_visitor100'
+  alias: QR Check out - visitor100
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: visitor100
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.visitor100
+    service: input_boolean.turn_on

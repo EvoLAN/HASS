@@ -1,0 +1,56 @@
+homeassistant:
+  name: EvoLAN 11
+  latitude: 59.817160
+  longitude: 5.262987
+  elevation: 15
+  unit_system: metric
+  time_zone: Europe/Oslo
+  customize: !include customize.yaml
+  auth_providers: !include auth_providers.yaml
+
+
+config:
+system_health:
+lovelace:
+  mode: yaml
+frontend:
+  themes: !include_dir_merge_named themes/
+history: !include history.yaml
+logbook: !include logbook.yaml
+recorder: !include recorder.yaml
+
+image_processing:
+  - platform: qrcode
+    scan_interval: 1
+    source:
+      - entity_id: camera.check_in
+  - platform: qrcode
+    scan_interval: 1
+    source:
+      - entity_id: camera.check_out
+
+camera:
+  - platform: mjpeg
+    name: check_in
+    mjpeg_url: http://10.10.6.204:8081
+    verify_ssl: false
+  - platform: mjpeg
+    name: check_out
+    mjpeg_url: http://10.10.6.204:8082
+    verify_ssl: false
+
+# Deltakere
+switch: !include_dir_merge_list switch/
+
+# Gjester
+light: !include light.yaml
+
+# Crew&Styret
+binary_sensor: !include binary_sensor.yaml
+
+# Alle (States)
+input_boolean: !include_dir_merge_named input_boolean/
+
+sensor: !include_dir_merge_list sensor/
+automation: !include_dir_merge_list automations/
+script: !include scripts.yaml

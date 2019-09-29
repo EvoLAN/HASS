@@ -1,0 +1,62 @@
+  - platform: template
+    sensors:
+      crew01:
+        value_template: "{{ is_state('input_boolean.crew01', 'on') }}"
+      crew02:
+        value_template: "{{ is_state('input_boolean.crew02', 'on') }}"
+      crew03:
+        value_template: "{{ is_state('input_boolean.crew03', 'on') }}"
+      crew04:
+        value_template: "{{ is_state('input_boolean.crew04', 'on') }}"
+      crew05:
+        value_template: "{{ is_state('input_boolean.crew05', 'on') }}"
+      crew06:
+        value_template: "{{ is_state('input_boolean.crew06', 'on') }}"
+      crew07:
+        value_template: "{{ is_state('input_boolean.crew07', 'on') }}"
+      crew08:
+        value_template: "{{ is_state('input_boolean.crew08', 'on') }}"
+      crew09:
+        value_template: "{{ is_state('input_boolean.crew09', 'on') }}"
+      crew10:
+        value_template: "{{ is_state('input_boolean.crew10', 'on') }}"
+      crew11:
+        value_template: "{{ is_state('input_boolean.crew11', 'on') }}"
+      crew12:
+        value_template: "{{ is_state('input_boolean.crew12', 'on') }}"
+      crew13:
+        value_template: "{{ is_state('input_boolean.crew13', 'on') }}"
+      crew14:
+        value_template: "{{ is_state('input_boolean.crew14', 'on') }}"
+      crew15:
+        value_template: "{{ is_state('input_boolean.crew15', 'on') }}"
+      crew16:
+        value_template: "{{ is_state('input_boolean.crew16', 'on') }}"
+      crew17:
+        value_template: "{{ is_state('input_boolean.crew17', 'on') }}"
+      crew18:
+        value_template: "{{ is_state('input_boolean.crew18', 'on') }}"
+      crew19:
+        value_template: "{{ is_state('input_boolean.crew19', 'on') }}"
+      crew20:
+        value_template: "{{ is_state('input_boolean.crew20', 'on') }}"
+      crew21:
+        value_template: "{{ is_state('input_boolean.crew21', 'on') }}"
+      crew22:
+        value_template: "{{ is_state('input_boolean.crew22', 'on') }}"
+      crew23:
+        value_template: "{{ is_state('input_boolean.crew23', 'on') }}"
+      crew24:
+        value_template: "{{ is_state('input_boolean.crew24', 'on') }}"
+      crew25:
+        value_template: "{{ is_state('input_boolean.crew25', 'on') }}"
+      crew26:
+        value_template: "{{ is_state('input_boolean.crew26', 'on') }}"
+      crew27:
+        value_template: "{{ is_state('input_boolean.crew27', 'on') }}"
+      crew28:
+        value_template: "{{ is_state('input_boolean.crew28', 'on') }}"
+      crew29:
+        value_template: "{{ is_state('input_boolean.crew29', 'on') }}"
+      crew30:
+        value_template: "{{ is_state('input_boolean.crew30', 'on') }}"

@@ -1,0 +1,180 @@
+- id: 'qr_check_in_d_01'
+  alias: QR Check in - d_01
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_01
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_01
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_02'
+  alias: QR Check in - d_02
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_02
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_02
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_03'
+  alias: QR Check in - d_03
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_03
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_03
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_04'
+  alias: QR Check in - d_04
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_04
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_04
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_05'
+  alias: QR Check in - d_05
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_05
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_05
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_06'
+  alias: QR Check in - d_06
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_06
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_06
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_07'
+  alias: QR Check in - d_07
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_07
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_07
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_08'
+  alias: QR Check in - d_08
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_08
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_08
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_09'
+  alias: QR Check in - d_09
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_09
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_09
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_10'
+  alias: QR Check in - d_10
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_10
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_10
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_11'
+  alias: QR Check in - d_11
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_11
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_11
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_12'
+  alias: QR Check in - d_12
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_12
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_12
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_13'
+  alias: QR Check in - d_13
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_13
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_13
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_14'
+  alias: QR Check in - d_14
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_14
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_14
+    service: input_boolean.turn_on
+- id: 'qr_check_in_d_15'
+  alias: QR Check in - d_15
+  trigger:
+  - entity_id: image_processing.qr_check_in
+    from: unknown
+    platform: state
+    to: d_15
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.d_15
+    service: input_boolean.turn_on

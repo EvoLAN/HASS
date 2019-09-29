@@ -1,0 +1,8 @@
+  - platform: template
+    sensors:
+      totalt:
+        entity_id:
+          - sensor.time
+          - image_processing.qr_check_in
+          - image_processing.qr_check_out
+        value_template: "{{ states.input_boolean|selectattr('state','equalto','on')|list|length | round(0) }}"

@@ -1,0 +1,8 @@
+    - type: homeassistant
+    - type: trusted_networks
+      allow_bypass_login: true
+      trusted_networks:
+        - 10.10.0.0/24
+        - 10.10.1.0/24
+        - 10.10.2.0/24
+        - 10.10.6.0/24

@@ -1,0 +1,819 @@
+resources:
+  - type: module
+    url: /local/topbar/compact-custom-header.js?v=0.0.1
+
+cch:
+  clock_am_pm: false
+  clock_format: '24'
+  options: clock
+  swipe: true
+  voice: hide
+
+title: EvoLAN 11
+views:
+  - badges: []
+    cards:
+      - cards:
+          - cards:
+              - columns: 10
+                entities:
+                  - entity: switch.a_01
+                    tap_action:
+                      action: toggle
+                  - entity: switch.a_02
+                    tap_action:
+                      action: toggle
+                  - entity: switch.a_03
+                    tap_action:
+                      action: toggle
+                  - entity: switch.a_04
+                    tap_action:
+                      action: toggle
+                  - entity: switch.a_05
+                    tap_action:
+                      action: toggle
+                  - entity: switch.a_06
+                    tap_action:
+                      action: toggle
+                  - entity: switch.a_07
+                    tap_action:
+                      action: toggle
+                  - entity: switch.a_08
+                    tap_action:
+                      action: toggle
+                  - entity: switch.a_09
+                    tap_action:
+                      action: toggle
+                  - entity: switch.a_10
+                    tap_action:
+                      action: toggle
+                show_icon: true
+                show_state: false
+                type: glance
+              - columns: 10
+                entities:
+                  - entity: switch.b_01
+                    tap_action:
+                      action: toggle
+                  - entity: switch.b_02
+                    tap_action:
+                      action: toggle
+                  - entity: switch.b_03
+                    tap_action:
+                      action: toggle
+                  - entity: switch.b_04
+                    tap_action:
+                      action: toggle
+                  - entity: switch.b_05
+                    tap_action:
+                      action: toggle
+                  - entity: switch.b_06
+                    tap_action:
+                      action: toggle
+                  - entity: switch.b_07
+                    tap_action:
+                      action: toggle
+                  - entity: switch.b_08
+                    tap_action:
+                      action: toggle
+                  - entity: switch.b_09
+                    tap_action:
+                      action: toggle
+                  - entity: switch.b_10
+                    tap_action:
+                      action: toggle
+                show_icon: true
+                show_state: false
+                type: glance
+              - columns: 1
+                entities:
+                  - entity: script.dummy
+                show_icon: false
+                show_name: false
+                show_state: false
+                type: glance
+              - columns: 15
+                entities:
+                  - entity: switch.c_01
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_02
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_03
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_04
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_05
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_06
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_07
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_08
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_09
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_10
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_11
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_12
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_13
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_14
+                    tap_action:
+                      action: toggle
+                  - entity: switch.c_15
+                    tap_action:
+                      action: toggle
+                show_icon: true
+                show_state: false
+                type: glance
+              - columns: 15
+                entities:
+                  - entity: switch.d_01
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_02
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_03
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_04
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_05
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_06
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_07
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_08
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_09
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_10
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_11
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_12
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_13
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_14
+                    tap_action:
+                      action: toggle
+                  - entity: switch.d_15
+                    tap_action:
+                      action: toggle
+                show_icon: true
+                show_state: false
+                type: glance
+              - columns: 1
+                entities:
+                  - entity: script.dummy
+                show_icon: false
+                show_name: false
+                show_state: false
+                type: glance
+              - columns: 15
+                entities:
+                  - entity: switch.e_01
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_02
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_03
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_04
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_05
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_06
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_07
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_08
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_09
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_10
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_11
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_12
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_13
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_14
+                    tap_action:
+                      action: toggle
+                  - entity: switch.e_15
+                    tap_action:
+                      action: toggle
+                show_icon: true
+                show_state: false
+                type: glance
+              - columns: 15
+                entities:
+                  - entity: switch.f_01
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_02
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_03
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_04
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_05
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_06
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_07
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_08
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_09
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_10
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_11
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_12
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_13
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_14
+                    tap_action:
+                      action: toggle
+                  - entity: switch.f_15
+                    tap_action:
+                      action: toggle
+                show_icon: true
+                show_state: false
+                type: glance
+              - columns: 1
+                entities:
+                  - entity: script.dummy
+                show_icon: false
+                show_name: false
+                show_state: false
+                type: glance
+              - columns: 10
+                entities:
+                  - entity: switch.g_01
+                    tap_action:
+                      action: toggle
+                  - entity: switch.g_02
+                    tap_action:
+                      action: toggle
+                  - entity: switch.g_03
+                    tap_action:
+                      action: toggle
+                  - entity: switch.g_04
+                    tap_action:
+                      action: toggle
+                  - entity: switch.g_05
+                    tap_action:
+                      action: toggle
+                  - entity: switch.g_06
+                    tap_action:
+                      action: toggle
+                  - entity: switch.g_07
+                    tap_action:
+                      action: toggle
+                  - entity: switch.g_08
+                    tap_action:
+                      action: toggle
+                  - entity: switch.g_09
+                    tap_action:
+                      action: toggle
+                  - entity: switch.g_10
+                    tap_action:
+                      action: toggle
+                show_icon: true
+                show_state: false
+                type: glance
+              - columns: 10
+                entities:
+                  - entity: switch.h_01
+                    tap_action:
+                      action: toggle
+                  - entity: switch.h_02
+                    tap_action:
+                      action: toggle
+                  - entity: switch.h_03
+                    tap_action:
+                      action: toggle
+                  - entity: switch.h_04
+                    tap_action:
+                      action: toggle
+                  - entity: switch.h_05
+                    tap_action:
+                      action: toggle
+                  - entity: switch.h_06
+                    tap_action:
+                      action: toggle
+                  - entity: switch.h_07
+                    tap_action:
+                      action: toggle
+                  - entity: switch.h_08
+                    tap_action:
+                      action: toggle
+                  - entity: switch.h_09
+                    tap_action:
+                      action: toggle
+                  - entity: switch.h_10
+                show_icon: true
+                show_state: false
+                type: glance
+            type: vertical-stack
+          - cards:
+              - cards:
+                  - entity: sensor.totalt
+                    max: 200
+                    min: 0
+                    name: Totalt
+                    severity:
+                      green: 0
+                      red: 0
+                      yellow: 0
+                    theme: default
+                    type: gauge
+                  - entity: sensor.deltakere
+                    max: 100
+                    min: 0
+                    name: Deltakere
+                    severity:
+                      green: 0
+                      red: 0
+                      yellow: 0
+                    theme: default
+                    type: gauge
+                  - entity: sensor.visitor
+                    max: 100
+                    min: 0
+                    name: Besøkande
+                    severity:
+                      green: 0
+                      red: 0
+                      yellow: 0
+                    theme: default
+                    type: gauge
+                  - entity: sensor.crew
+                    max: 100
+                    min: 0
+                    name: Crew&Styret
+                    severity:
+                      green: 0
+                      red: 0
+                      yellow: 0
+                    theme: default
+                    type: gauge
+                type: horizontal-stack
+              - cards:
+                  - camera_image: camera_out
+                    camera_view: live
+                    entity: image_processing.qr_check_out
+                    type: picture-entity
+                  - camera_image: camera_in
+                    camera_view: live
+                    entity: image_processing.qr_check_in
+                    type: picture-entity
+                type: horizontal-stack
+              - card:
+                  columns: 15
+                  title: Crew&Styret
+                  type: glance
+                entities:
+                  - binary_sensor.crew01
+                  - binary_sensor.crew02
+                  - binary_sensor.crew03
+                  - binary_sensor.crew04
+                  - binary_sensor.crew05
+                  - binary_sensor.crew06
+                  - binary_sensor.crew07
+                  - binary_sensor.crew08
+                  - binary_sensor.crew09
+                  - binary_sensor.crew10
+                  - binary_sensor.crew11
+                  - binary_sensor.crew12
+                  - binary_sensor.crew13
+                  - binary_sensor.crew14
+                  - binary_sensor.crew15
+                  - binary_sensor.crew16
+                  - binary_sensor.crew17
+                  - binary_sensor.crew18
+                  - binary_sensor.crew19
+                  - binary_sensor.crew20
+                  - binary_sensor.crew21
+                  - binary_sensor.crew22
+                  - binary_sensor.crew23
+                  - binary_sensor.crew24
+                  - binary_sensor.crew25
+                  - binary_sensor.crew26
+                  - binary_sensor.crew27
+                  - binary_sensor.crew28
+                  - binary_sensor.crew29
+                  - binary_sensor.crew30
+                state_filter:
+                  - 'on'
+                type: entity-filter
+              - card:
+                  columns: 15
+                  title: Besøkande
+                  type: glance
+                entities:
+                  - light.visitor01
+                  - light.visitor02
+                  - light.visitor03
+                  - light.visitor04
+                  - light.visitor05
+                  - light.visitor06
+                  - light.visitor07
+                  - light.visitor08
+                  - light.visitor09
+                  - light.visitor10
+                  - light.visitor11
+                  - light.visitor12
+                  - light.visitor13
+                  - light.visitor14
+                  - light.visitor15
+                  - light.visitor16
+                  - light.visitor17
+                  - light.visitor18
+                  - light.visitor19
+                  - light.visitor20
+                  - light.visitor21
+                  - light.visitor22
+                  - light.visitor23
+                  - light.visitor24
+                  - light.visitor25
+                  - light.visitor26
+                  - light.visitor27
+                  - light.visitor28
+                  - light.visitor29
+                  - light.visitor30
+                  - light.visitor31
+                  - light.visitor32
+                  - light.visitor33
+                  - light.visitor34
+                  - light.visitor35
+                  - light.visitor36
+                  - light.visitor37
+                  - light.visitor38
+                  - light.visitor39
+                  - light.visitor40
+                  - light.visitor41
+                  - light.visitor42
+                  - light.visitor43
+                  - light.visitor44
+                  - light.visitor45
+                  - light.visitor46
+                  - light.visitor47
+                  - light.visitor48
+                  - light.visitor49
+                  - light.visitor50
+                  - light.visitor51
+                  - light.visitor52
+                  - light.visitor53
+                  - light.visitor54
+                  - light.visitor55
+                  - light.visitor56
+                  - light.visitor57
+                  - light.visitor58
+                  - light.visitor59
+                  - light.visitor60
+                  - light.visitor61
+                  - light.visitor62
+                  - light.visitor63
+                  - light.visitor64
+                  - light.visitor65
+                  - light.visitor66
+                  - light.visitor67
+                  - light.visitor68
+                  - light.visitor69
+                  - light.visitor70
+                  - light.visitor71
+                  - light.visitor72
+                  - light.visitor73
+                  - light.visitor74
+                  - light.visitor75
+                  - light.visitor76
+                  - light.visitor77
+                  - light.visitor78
+                  - light.visitor79
+                  - light.visitor80
+                  - light.visitor81
+                  - light.visitor82
+                  - light.visitor83
+                  - light.visitor84
+                  - light.visitor85
+                  - light.visitor86
+                  - light.visitor87
+                  - light.visitor88
+                  - light.visitor89
+                  - light.visitor90
+                  - light.visitor91
+                  - light.visitor92
+                  - light.visitor93
+                  - light.visitor94
+                  - light.visitor95
+                  - light.visitor96
+                  - light.visitor97
+                  - light.visitor98
+                  - light.visitor99
+                state_filter:
+                  - 'on'
+                type: entity-filter
+            type: vertical-stack
+        type: horizontal-stack
+    panel: true
+    path: default_view
+    icon: mdi:monitor-dashboard
+    title: Home
+  - badges: []
+    cards:
+      - cards:
+          - cards:
+              - aspect_ratio: 969
+                camera_view: live
+                entity: image_processing.qr_check_out
+                show_name: false
+                show_state: false
+                state_image:
+                  a_01: /local/Godkjent.PNG
+                  a_02: /local/Godkjent.PNG
+                  a_03: /local/Godkjent.PNG
+                  a_04: /local/Godkjent.PNG
+                  a_05: /local/Godkjent.PNG
+                  a_06: /local/Godkjent.PNG
+                  a_07: /local/Godkjent.PNG
+                  a_08: /local/Godkjent.PNG
+                  a_09: /local/Godkjent.PNG
+                  a_10: /local/Godkjent.PNG
+                  b_01: /local/Godkjent.PNG
+                  b_02: /local/Godkjent.PNG
+                  b_03: /local/Godkjent.PNG
+                  b_04: /local/Godkjent.PNG
+                  b_05: /local/Godkjent.PNG
+                  b_06: /local/Godkjent.PNG
+                  b_07: /local/Godkjent.PNG
+                  b_08: /local/Godkjent.PNG
+                  b_09: /local/Godkjent.PNG
+                  b_10: /local/Godkjent.PNG
+                  c_01: /local/Godkjent.PNG
+                  c_02: /local/Godkjent.PNG
+                  c_03: /local/Godkjent.PNG
+                  c_04: /local/Godkjent.PNG
+                  c_05: /local/Godkjent.PNG
+                  c_06: /local/Godkjent.PNG
+                  c_07: /local/Godkjent.PNG
+                  c_08: /local/Godkjent.PNG
+                  c_09: /local/Godkjent.PNG
+                  c_10: /local/Godkjent.PNG
+                  c_11: /local/Godkjent.PNG
+                  c_12: /local/Godkjent.PNG
+                  c_13: /local/Godkjent.PNG
+                  c_14: /local/Godkjent.PNG
+                  c_15: /local/Godkjent.PNG
+                  d_01: /local/Godkjent.PNG
+                  d_02: /local/Godkjent.PNG
+                  d_03: /local/Godkjent.PNG
+                  d_04: /local/Godkjent.PNG
+                  d_05: /local/Godkjent.PNG
+                  d_06: /local/Godkjent.PNG
+                  d_07: /local/Godkjent.PNG
+                  d_08: /local/Godkjent.PNG
+                  d_09: /local/Godkjent.PNG
+                  d_10: /local/Godkjent.PNG
+                  d_11: /local/Godkjent.PNG
+                  d_12: /local/Godkjent.PNG
+                  d_13: /local/Godkjent.PNG
+                  d_14: /local/Godkjent.PNG
+                  d_15: /local/Godkjent.PNG
+                  e_01: /local/Godkjent.PNG
+                  e_02: /local/Godkjent.PNG
+                  e_03: /local/Godkjent.PNG
+                  e_04: /local/Godkjent.PNG
+                  e_05: /local/Godkjent.PNG
+                  e_06: /local/Godkjent.PNG
+                  e_07: /local/Godkjent.PNG
+                  e_08: /local/Godkjent.PNG
+                  e_09: /local/Godkjent.PNG
+                  e_10: /local/Godkjent.PNG
+                  e_11: /local/Godkjent.PNG
+                  e_12: /local/Godkjent.PNG
+                  e_13: /local/Godkjent.PNG
+                  e_14: /local/Godkjent.PNG
+                  e_15: /local/Godkjent.PNG
+                  f_01: /local/Godkjent.PNG
+                  f_02: /local/Godkjent.PNG
+                  f_03: /local/Godkjent.PNG
+                  f_04: /local/Godkjent.PNG
+                  f_05: /local/Godkjent.PNG
+                  f_06: /local/Godkjent.PNG
+                  f_07: /local/Godkjent.PNG
+                  f_08: /local/Godkjent.PNG
+                  f_09: /local/Godkjent.PNG
+                  f_10: /local/Godkjent.PNG
+                  f_11: /local/Godkjent.PNG
+                  f_12: /local/Godkjent.PNG
+                  f_13: /local/Godkjent.PNG
+                  f_14: /local/Godkjent.PNG
+                  f_15: /local/Godkjent.PNG
+                  g_01: /local/Godkjent.PNG
+                  g_02: /local/Godkjent.PNG
+                  g_03: /local/Godkjent.PNG
+                  g_04: /local/Godkjent.PNG
+                  g_05: /local/Godkjent.PNG
+                  g_06: /local/Godkjent.PNG
+                  g_07: /local/Godkjent.PNG
+                  g_08: /local/Godkjent.PNG
+                  g_09: /local/Godkjent.PNG
+                  g_10: /local/Godkjent.PNG
+                  h_01: /local/Godkjent.PNG
+                  h_02: /local/Godkjent.PNG
+                  h_03: /local/Godkjent.PNG
+                  h_04: /local/Godkjent.PNG
+                  h_05: /local/Godkjent.PNG
+                  h_06: /local/Godkjent.PNG
+                  h_07: /local/Godkjent.PNG
+                  h_08: /local/Godkjent.PNG
+                  h_09: /local/Godkjent.PNG
+                  h_10: /local/Godkjent.PNG
+                  unknown: '/local/Sjekk_ut.PNG'
+                type: picture-entity
+              - camera_view: live
+                entity: camera.check_out
+                show_name: false
+                show_state: false
+                type: picture-entity
+            type: vertical-stack
+          - cards:
+              - aspect_ratio: 969
+                camera_view: live
+                entity: image_processing.qr_check_in
+                show_name: false
+                show_state: false
+                state_image:
+                  a_01: /local/Godkjent.PNG
+                  a_02: /local/Godkjent.PNG
+                  a_03: /local/Godkjent.PNG
+                  a_04: /local/Godkjent.PNG
+                  a_05: /local/Godkjent.PNG
+                  a_06: /local/Godkjent.PNG
+                  a_07: /local/Godkjent.PNG
+                  a_08: /local/Godkjent.PNG
+                  a_09: /local/Godkjent.PNG
+                  a_10: /local/Godkjent.PNG
+                  b_01: /local/Godkjent.PNG
+                  b_02: /local/Godkjent.PNG
+                  b_03: /local/Godkjent.PNG
+                  b_04: /local/Godkjent.PNG
+                  b_05: /local/Godkjent.PNG
+                  b_06: /local/Godkjent.PNG
+                  b_07: /local/Godkjent.PNG
+                  b_08: /local/Godkjent.PNG
+                  b_09: /local/Godkjent.PNG
+                  b_10: /local/Godkjent.PNG
+                  c_01: /local/Godkjent.PNG
+                  c_02: /local/Godkjent.PNG
+                  c_03: /local/Godkjent.PNG
+                  c_04: /local/Godkjent.PNG
+                  c_05: /local/Godkjent.PNG
+                  c_06: /local/Godkjent.PNG
+                  c_07: /local/Godkjent.PNG
+                  c_08: /local/Godkjent.PNG
+                  c_09: /local/Godkjent.PNG
+                  c_10: /local/Godkjent.PNG
+                  c_11: /local/Godkjent.PNG
+                  c_12: /local/Godkjent.PNG
+                  c_13: /local/Godkjent.PNG
+                  c_14: /local/Godkjent.PNG
+                  c_15: /local/Godkjent.PNG
+                  d_01: /local/Godkjent.PNG
+                  d_02: /local/Godkjent.PNG
+                  d_03: /local/Godkjent.PNG
+                  d_04: /local/Godkjent.PNG
+                  d_05: /local/Godkjent.PNG
+                  d_06: /local/Godkjent.PNG
+                  d_07: /local/Godkjent.PNG
+                  d_08: /local/Godkjent.PNG
+                  d_09: /local/Godkjent.PNG
+                  d_10: /local/Godkjent.PNG
+                  d_11: /local/Godkjent.PNG
+                  d_12: /local/Godkjent.PNG
+                  d_13: /local/Godkjent.PNG
+                  d_14: /local/Godkjent.PNG
+                  d_15: /local/Godkjent.PNG
+                  e_01: /local/Godkjent.PNG
+                  e_02: /local/Godkjent.PNG
+                  e_03: /local/Godkjent.PNG
+                  e_04: /local/Godkjent.PNG
+                  e_05: /local/Godkjent.PNG
+                  e_06: /local/Godkjent.PNG
+                  e_07: /local/Godkjent.PNG
+                  e_08: /local/Godkjent.PNG
+                  e_09: /local/Godkjent.PNG
+                  e_10: /local/Godkjent.PNG
+                  e_11: /local/Godkjent.PNG
+                  e_12: /local/Godkjent.PNG
+                  e_13: /local/Godkjent.PNG
+                  e_14: /local/Godkjent.PNG
+                  e_15: /local/Godkjent.PNG
+                  f_01: /local/Godkjent.PNG
+                  f_02: /local/Godkjent.PNG
+                  f_03: /local/Godkjent.PNG
+                  f_04: /local/Godkjent.PNG
+                  f_05: /local/Godkjent.PNG
+                  f_06: /local/Godkjent.PNG
+                  f_07: /local/Godkjent.PNG
+                  f_08: /local/Godkjent.PNG
+                  f_09: /local/Godkjent.PNG
+                  f_10: /local/Godkjent.PNG
+                  f_11: /local/Godkjent.PNG
+                  f_12: /local/Godkjent.PNG
+                  f_13: /local/Godkjent.PNG
+                  f_14: /local/Godkjent.PNG
+                  f_15: /local/Godkjent.PNG
+                  g_01: /local/Godkjent.PNG
+                  g_02: /local/Godkjent.PNG
+                  g_03: /local/Godkjent.PNG
+                  g_04: /local/Godkjent.PNG
+                  g_05: /local/Godkjent.PNG
+                  g_06: /local/Godkjent.PNG
+                  g_07: /local/Godkjent.PNG
+                  g_08: /local/Godkjent.PNG
+                  g_09: /local/Godkjent.PNG
+                  g_10: /local/Godkjent.PNG
+                  h_01: /local/Godkjent.PNG
+                  h_02: /local/Godkjent.PNG
+                  h_03: /local/Godkjent.PNG
+                  h_04: /local/Godkjent.PNG
+                  h_05: /local/Godkjent.PNG
+                  h_06: /local/Godkjent.PNG
+                  h_07: /local/Godkjent.PNG
+                  h_08: /local/Godkjent.PNG
+                  h_09: /local/Godkjent.PNG
+                  h_10: /local/Godkjent.PNG
+                  unknown: '/local/Sjekk_inn.PNG'
+                type: picture-entity
+              - camera_view: live
+                entity: camera.check_in
+                show_name: false
+                show_state: false
+                type: picture-entity
+            type: vertical-stack
+        type: horizontal-stack
+    panel: true
+    path: automat
+    icon: mdi:barcode-scan
+    title: Automat

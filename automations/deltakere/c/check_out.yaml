@@ -1,0 +1,180 @@
+- id: 'qr_check_out_c_01'
+  alias: QR Check out - c_01
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_01
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_01
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_02'
+  alias: QR Check out - c_02
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_02
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_02
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_03'
+  alias: QR Check out - c_03
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_03
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_03
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_04'
+  alias: QR Check out - c_04
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_04
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_04
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_05'
+  alias: QR Check out - c_05
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_05
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_05
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_06'
+  alias: QR Check out - c_06
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_06
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_06
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_07'
+  alias: QR Check out - c_07
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_07
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_07
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_08'
+  alias: QR Check out - c_08
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_08
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_08
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_09'
+  alias: QR Check out - c_09
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_09
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_09
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_10'
+  alias: QR Check out - c_10
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_10
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_10
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_11'
+  alias: QR Check out - c_11
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_11
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_11
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_12'
+  alias: QR Check out - c_12
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_12
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_12
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_13'
+  alias: QR Check out - c_13
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_13
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_13
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_14'
+  alias: QR Check out - c_14
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_14
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_14
+    service: input_boolean.turn_off
+- id: 'qr_check_out_c_15'
+  alias: QR Check out - c_15
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: c_15
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.c_15
+    service: input_boolean.turn_off

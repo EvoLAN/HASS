@@ -1,0 +1,6 @@
+  include:
+    entities:
+      - sensor.totalt
+      - sensor.visitor
+      - sensor.deltakere
+      - sensor.crew 

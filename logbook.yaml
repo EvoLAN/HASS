@@ -1,0 +1,4 @@
+  include:
+    domains:
+      - input_boolean
+      - image_processing

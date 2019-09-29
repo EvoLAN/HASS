@@ -1,0 +1,458 @@
+switch.a_01:
+  icon: mdi:account
+switch.a_02:
+  icon: mdi:account
+switch.a_03:
+  icon: mdi:account
+switch.a_04:
+  icon: mdi:account
+switch.a_05:
+  icon: mdi:account
+switch.a_06:
+  icon: mdi:account
+switch.a_07:
+  icon: mdi:account
+switch.a_08:
+  icon: mdi:account
+switch.a_09:
+  icon: mdi:account
+switch.a_10:
+  icon: mdi:account
+switch.b_01:
+  icon: mdi:account
+switch.b_02:
+  icon: mdi:account
+switch.b_03:
+  icon: mdi:account
+switch.b_04:
+  icon: mdi:account
+switch.b_05:
+  icon: mdi:account
+switch.b_06:
+  icon: mdi:account
+switch.b_07:
+  icon: mdi:account
+switch.b_08:
+  icon: mdi:account
+switch.b_09:
+  icon: mdi:account
+switch.b_10:
+  icon: mdi:account
+switch.c_01:
+  icon: mdi:account
+switch.c_02:
+  icon: mdi:account
+switch.c_03:
+  icon: mdi:account
+switch.c_04:
+  icon: mdi:account
+switch.c_05:
+  icon: mdi:account
+switch.c_06:
+  icon: mdi:account
+switch.c_07:
+  icon: mdi:account
+switch.c_08:
+  icon: mdi:account
+switch.c_09:
+  icon: mdi:account
+switch.c_10:
+  icon: mdi:account
+switch.c_11:
+  icon: mdi:account
+switch.c_12:
+  icon: mdi:account
+switch.c_13:
+  icon: mdi:account
+switch.c_14:
+  icon: mdi:account
+switch.c_15:
+  icon: mdi:account
+switch.d_01:
+  icon: mdi:account
+switch.d_02:
+  icon: mdi:account
+switch.d_03:
+  icon: mdi:account
+switch.d_04:
+  icon: mdi:account
+switch.d_05:
+  icon: mdi:account
+switch.d_06:
+  icon: mdi:account
+switch.d_07:
+  icon: mdi:account
+switch.d_08:
+  icon: mdi:account
+switch.d_09:
+  icon: mdi:account
+switch.d_10:
+  icon: mdi:account
+switch.d_11:
+  icon: mdi:account
+switch.d_12:
+  icon: mdi:account
+switch.d_13:
+  icon: mdi:account
+switch.d_14:
+  icon: mdi:account
+switch.d_15:
+  icon: mdi:account
+switch.e_01:
+  icon: mdi:account
+switch.e_02:
+  icon: mdi:account
+switch.e_03:
+  icon: mdi:account
+switch.e_04:
+  icon: mdi:account
+switch.e_05:
+  icon: mdi:account
+switch.e_06:
+  icon: mdi:account
+switch.e_07:
+  icon: mdi:account
+switch.e_08:
+  icon: mdi:account
+switch.e_09:
+  icon: mdi:account
+switch.e_10:
+  icon: mdi:account
+switch.e_11:
+  icon: mdi:account
+switch.e_12:
+  icon: mdi:account
+switch.e_13:
+  icon: mdi:account
+switch.e_14:
+  icon: mdi:account
+switch.e_15:
+  icon: mdi:account
+switch.f_01:
+  icon: mdi:account
+switch.f_02:
+  icon: mdi:account
+switch.f_03:
+  icon: mdi:account
+switch.f_04:
+  icon: mdi:account
+switch.f_05:
+  icon: mdi:account
+switch.f_06:
+  icon: mdi:account
+switch.f_07:
+  icon: mdi:account
+switch.f_08:
+  icon: mdi:account
+switch.f_09:
+  icon: mdi:account
+switch.f_10:
+  icon: mdi:account
+switch.f_11:
+  icon: mdi:account
+switch.f_12:
+  icon: mdi:account
+switch.f_13:
+  icon: mdi:account
+switch.f_14:
+  icon: mdi:account
+switch.f_15:
+  icon: mdi:account
+switch.g_01:
+  icon: mdi:account
+switch.g_02:
+  icon: mdi:account
+switch.g_03:
+  icon: mdi:account
+switch.g_04:
+  icon: mdi:account
+switch.g_05:
+  icon: mdi:account
+switch.g_06:
+  icon: mdi:account
+switch.g_07:
+  icon: mdi:account
+switch.g_08:
+  icon: mdi:account
+switch.g_09:
+  icon: mdi:account
+switch.g_10:
+  icon: mdi:account
+switch.h_01:
+  icon: mdi:account
+switch.h_02:
+  icon: mdi:account
+switch.h_03:
+  icon: mdi:account
+switch.h_04:
+  icon: mdi:account
+switch.h_05:
+  icon: mdi:account
+switch.h_06:
+  icon: mdi:account
+switch.h_07:
+  icon: mdi:account
+switch.h_08:
+  icon: mdi:account
+switch.h_09:
+  icon: mdi:account
+switch.h_10:
+  icon: mdi:account
+light.visitor01:
+  icon: mdi:account
+light.visitor02:
+  icon: mdi:account
+light.visitor03:
+  icon: mdi:account
+light.visitor04:
+  icon: mdi:account
+light.visitor05:
+  icon: mdi:account
+light.visitor06:
+  icon: mdi:account
+light.visitor07:
+  icon: mdi:account
+light.visitor08:
+  icon: mdi:account
+light.visitor09:
+  icon: mdi:account
+light.visitor10:
+  icon: mdi:account
+light.visitor11:
+  icon: mdi:account
+light.visitor12:
+  icon: mdi:account
+light.visitor13:
+  icon: mdi:account
+light.visitor14:
+  icon: mdi:account
+light.visitor15:
+  icon: mdi:account
+light.visitor16:
+  icon: mdi:account
+light.visitor17:
+  icon: mdi:account
+light.visitor18:
+  icon: mdi:account
+light.visitor19:
+  icon: mdi:account
+light.visitor20:
+  icon: mdi:account
+light.visitor21:
+  icon: mdi:account
+light.visitor22:
+  icon: mdi:account
+light.visitor23:
+  icon: mdi:account
+light.visitor24:
+  icon: mdi:account
+light.visitor25:
+  icon: mdi:account
+light.visitor26:
+  icon: mdi:account
+light.visitor27:
+  icon: mdi:account
+light.visitor28:
+  icon: mdi:account
+light.visitor29:
+  icon: mdi:account
+light.visitor30:
+  icon: mdi:account
+light.visitor31:
+  icon: mdi:account
+light.visitor32:
+  icon: mdi:account
+light.visitor33:
+  icon: mdi:account
+light.visitor34:
+  icon: mdi:account
+light.visitor35:
+  icon: mdi:account
+light.visitor36:
+  icon: mdi:account
+light.visitor37:
+  icon: mdi:account
+light.visitor38:
+  icon: mdi:account
+light.visitor39:
+  icon: mdi:account
+light.visitor40:
+  icon: mdi:account
+light.visitor41:
+  icon: mdi:account
+light.visitor42:
+  icon: mdi:account
+light.visitor43:
+  icon: mdi:account
+light.visitor44:
+  icon: mdi:account
+light.visitor45:
+  icon: mdi:account
+light.visitor46:
+  icon: mdi:account
+light.visitor47:
+  icon: mdi:account
+light.visitor48:
+  icon: mdi:account
+light.visitor49:
+  icon: mdi:account
+light.visitor50:
+  icon: mdi:account
+light.visitor51:
+  icon: mdi:account
+light.visitor52:
+  icon: mdi:account
+light.visitor53:
+  icon: mdi:account
+light.visitor54:
+  icon: mdi:account
+light.visitor55:
+  icon: mdi:account
+light.visitor56:
+  icon: mdi:account
+light.visitor57:
+  icon: mdi:account
+light.visitor58:
+  icon: mdi:account
+light.visitor59:
+  icon: mdi:account
+light.visitor60:
+  icon: mdi:account
+light.visitor61:
+  icon: mdi:account
+light.visitor62:
+  icon: mdi:account
+light.visitor63:
+  icon: mdi:account
+light.visitor64:
+  icon: mdi:account
+light.visitor65:
+  icon: mdi:account
+light.visitor66:
+  icon: mdi:account
+light.visitor67:
+  icon: mdi:account
+light.visitor68:
+  icon: mdi:account
+light.visitor69:
+  icon: mdi:account
+light.visitor70:
+  icon: mdi:account
+light.visitor71:
+  icon: mdi:account
+light.visitor72:
+  icon: mdi:account
+light.visitor73:
+  icon: mdi:account
+light.visitor74:
+  icon: mdi:account
+light.visitor75:
+  icon: mdi:account
+light.visitor76:
+  icon: mdi:account
+light.visitor77:
+  icon: mdi:account
+light.visitor78:
+  icon: mdi:account
+light.visitor79:
+  icon: mdi:account
+light.visitor80:
+  icon: mdi:account
+light.visitor81:
+  icon: mdi:account
+light.visitor82:
+  icon: mdi:account
+light.visitor83:
+  icon: mdi:account
+light.visitor84:
+  icon: mdi:account
+light.visitor85:
+  icon: mdi:account
+light.visitor86:
+  icon: mdi:account
+light.visitor87:
+  icon: mdi:account
+light.visitor88:
+  icon: mdi:account
+light.visitor89:
+  icon: mdi:account
+light.visitor90:
+  icon: mdi:account
+light.visitor91:
+  icon: mdi:account
+light.visitor92:
+  icon: mdi:account
+light.visitor93:
+  icon: mdi:account
+light.visitor94:
+  icon: mdi:account
+light.visitor95:
+  icon: mdi:account
+light.visitor96:
+  icon: mdi:account
+light.visitor97:
+  icon: mdi:account
+light.visitor98:
+  icon: mdi:account
+light.visitor99:
+  icon: mdi:account
+binary_sensor.crew01:
+  icon: mdi:account
+binary_sensor.crew02:
+  icon: mdi:account
+binary_sensor.crew03:
+  icon: mdi:account
+binary_sensor.crew04:
+  icon: mdi:account
+binary_sensor.crew05:
+  icon: mdi:account
+binary_sensor.crew06:
+  icon: mdi:account
+binary_sensor.crew07:
+  icon: mdi:account
+binary_sensor.crew08:
+  icon: mdi:account
+binary_sensor.crew09:
+  icon: mdi:account
+binary_sensor.crew10:
+  icon: mdi:account
+binary_sensor.crew11:
+  icon: mdi:account
+binary_sensor.crew12:
+  icon: mdi:account
+binary_sensor.crew13:
+  icon: mdi:account
+binary_sensor.crew14:
+  icon: mdi:account
+binary_sensor.crew15:
+  icon: mdi:account
+binary_sensor.crew16:
+  icon: mdi:account
+binary_sensor.crew17:
+  icon: mdi:account
+binary_sensor.crew18:
+  icon: mdi:account
+binary_sensor.crew19:
+  icon: mdi:account
+binary_sensor.crew20:
+  icon: mdi:account
+binary_sensor.crew21:
+  icon: mdi:account
+binary_sensor.crew22:
+  icon: mdi:account
+binary_sensor.crew23:
+  icon: mdi:account
+binary_sensor.crew24:
+  icon: mdi:account
+binary_sensor.crew25:
+  icon: mdi:account
+binary_sensor.crew26:
+  icon: mdi:account
+binary_sensor.crew27:
+  icon: mdi:account
+binary_sensor.crew28:
+  icon: mdi:account
+binary_sensor.crew29:
+  icon: mdi:account
+binary_sensor.crew30:
+  icon: mdi:account

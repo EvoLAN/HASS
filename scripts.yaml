@@ -1,0 +1,4 @@
+dummy:
+  alias: Dummy
+  sequence:
+  - delay: '0'

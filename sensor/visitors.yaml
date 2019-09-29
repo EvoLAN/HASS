@@ -1,0 +1,8 @@
+  - platform: template
+    sensors:
+      visitor:
+        entity_id:
+          - sensor.time
+          - image_processing.qr_check_in
+          - image_processing.qr_check_out
+        value_template: "{{ states.light|selectattr('state','equalto','on')|list|length | round(0) }}"

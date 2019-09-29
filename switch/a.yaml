@@ -1,0 +1,102 @@
+  - platform: template
+    switches:
+      a_01:
+        value_template: "{{ is_state('input_boolean.a_01', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          data:
+            entity_id: input_boolean.a_01
+        turn_off:
+          service: input_boolean.turn_off
+          data:
+            entity_id: input_boolean.a_01
+      a_02:
+        value_template: "{{ is_state('input_boolean.a_02', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          data:
+            entity_id: input_boolean.a_02
+        turn_off:
+          service: input_boolean.turn_off
+          data:
+            entity_id: input_boolean.a_02
+      a_03:
+        value_template: "{{ is_state('input_boolean.a_03', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          data:
+            entity_id: input_boolean.a_03
+        turn_off:
+          service: input_boolean.turn_off
+          data:
+            entity_id: input_boolean.a_03
+      a_04:
+        value_template: "{{ is_state('input_boolean.a_04', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          data:
+            entity_id: input_boolean.a_04
+        turn_off:
+          service: input_boolean.turn_off
+          data:
+            entity_id: input_boolean.a_04
+      a_05:
+        value_template: "{{ is_state('input_boolean.a_05', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          data:
+            entity_id: input_boolean.a_05
+        turn_off:
+          service: input_boolean.turn_off
+          data:
+            entity_id: input_boolean.a_05
+      a_06:
+        value_template: "{{ is_state('input_boolean.a_06', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          data:
+            entity_id: input_boolean.a_06
+        turn_off:
+          service: input_boolean.turn_off
+          data:
+            entity_id: input_boolean.a_06
+      a_07:
+        value_template: "{{ is_state('input_boolean.a_07', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          data:
+            entity_id: input_boolean.a_07
+        turn_off:
+          service: input_boolean.turn_off
+          data:
+            entity_id: input_boolean.a_07
+      a_08:
+        value_template: "{{ is_state('input_boolean.a_08', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          data:
+            entity_id: input_boolean.a_08
+        turn_off:
+          service: input_boolean.turn_off
+          data:
+            entity_id: input_boolean.a_08
+      a_09:
+        value_template: "{{ is_state('input_boolean.a_09', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          data:
+            entity_id: input_boolean.a_09
+        turn_off:
+          service: input_boolean.turn_off
+          data:
+            entity_id: input_boolean.a_09
+      a_10:
+        value_template: "{{ is_state('input_boolean.a_10', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          data:
+            entity_id: input_boolean.a_10
+        turn_off:
+          service: input_boolean.turn_off
+          data:
+            entity_id: input_boolean.a_10

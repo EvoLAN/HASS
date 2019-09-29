@@ -1,0 +1,120 @@
+- id: 'qr_check_out_h_01'
+  alias: QR Check out - h_01
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: h_01
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.h_01
+    service: input_boolean.turn_off
+- id: 'qr_check_out_h_02'
+  alias: QR Check out - h_02
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: h_02
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.h_02
+    service: input_boolean.turn_off
+- id: 'qr_check_out_h_03'
+  alias: QR Check out - h_03
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: h_03
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.h_03
+    service: input_boolean.turn_off
+- id: 'qr_check_out_h_04'
+  alias: QR Check out - h_04
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: h_04
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.h_04
+    service: input_boolean.turn_off
+- id: 'qr_check_out_h_05'
+  alias: QR Check out - h_05
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: h_05
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.h_05
+    service: input_boolean.turn_off
+- id: 'qr_check_out_h_06'
+  alias: QR Check out - h_06
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: h_06
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.h_06
+    service: input_boolean.turn_off
+- id: 'qr_check_out_h_07'
+  alias: QR Check out - h_07
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: h_07
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.h_07
+    service: input_boolean.turn_off
+- id: 'qr_check_out_h_08'
+  alias: QR Check out - h_08
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: h_08
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.h_08
+    service: input_boolean.turn_off
+- id: 'qr_check_out_h_09'
+  alias: QR Check out - h_09
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: h_09
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.h_09
+    service: input_boolean.turn_off
+- id: 'qr_check_out_h_10'
+  alias: QR Check out - h_10
+  trigger:
+  - entity_id: image_processing.qr_check_out
+    from: unknown
+    platform: state
+    to: h_10
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.h_10
+    service: input_boolean.turn_off
